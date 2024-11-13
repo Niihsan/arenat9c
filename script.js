@@ -52,7 +52,7 @@ function renderTable(data) {
         <td data-label="Guilda">${item.guild || "N/A"}</td>
         <td data-label="Nome">${item.avatarname.trim()}</td>
         <td data-label="Endereço">
-          <a href="https://etherscan.io/address/${item.avataraddress}" target="_blank" title="${item.avataraddress}">
+          <a href="heimdall.9cscan.com/address/${item.avataraddress}" target="_blank" title="${item.avataraddress}">
             ${shortAddress}
           </a>
         </td>
