@@ -79,7 +79,6 @@ if (displayLimit >= data.length) {
 } else {
   $("#loadMoreButton").show();
 }
-}
 
 function startAutoRefresh() {
   // Limpar o intervalo anterior, se houver
