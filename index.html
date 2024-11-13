@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabela Responsiva de Arena</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Classificação da Arena</h1>
+
+    <div class="controls">
+      <label for="updateInterval">Intervalo de Atualização (minutos):</label>
+      <input type="number" id="updateInterval" value="1" min="1" step="1">
+      <button id="loadDataButton">Carregar Dados</button>
+    </div>
+
+    <div class="table-wrapper">
+      <table id="arenaTable">
+        <thead>
+          <tr>
+            <th>Rank</th>
+            <th>Pontuação</th>
+            <th>Guilda</th>
+            <th>Nome</th>
+            <th>Endereço</th>
+            <th>CP</th>
+            <th>Rodada</th>
+            <th>Tickets</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+
+    <button id="loadMoreButton">Carregar Mais 50</button>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
